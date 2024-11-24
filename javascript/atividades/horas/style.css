@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(57, 1, 8, 0.404);
+    
+}
+
+h1{
+    text-align: center;
+    padding: 0px 0px 30px;
+    margin: auto;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+}
+
+#horario{
+    text-align: center;
+    padding: 60px 0px 1px 0px;
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 1.1em;
+    text-shadow: 6px 2px 2px rgba(165, 126, 42, 0.645);
+}
+/*Aqui só pegou com o id e não na própria tag*/
+
+img{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    margin-top: 6%;
+    display: block;
+    padding-top: 2px;
+    box-shadow: 12px 2px 4px rgba(233, 194, 194, 0.578);
+    /*border-radius: 100% 4%; Deixou a imagem em formato de folha*/
+}
+
+section{
+    background-color: white;
+    width: 660px;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 1%;
+    display: block;
+    padding: 0%;
+    border-radius: 10%;
+    box-shadow: rgba(250, 204, 148, 0.382) 10px 3px 7px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 10%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<style>
+    body{
+        background-color: rgba(0, 0, 0, 0.466);
+        color: rgb(255, 35, 152);
+    }
+</style>
+<body>
+    <!--<h2>Aula sobre o Document Object Model</h2>
+    <p>Clica aqui!</p>
+    <div name="oi"></div>
+    <script>
+        window.document.writeln(window.document.URL)
+        window.document.write('Testando o código')
+
+    /*var h2 = window.document.getElementsByTagName('h2')[0]
+    window.document.write('ta ta' + h2.innerText  )
+    var hi = window.document.getElementById('oi')
+    hi.style.background = "yellow"
+    hi.innerText = "Comprimento "*/
+    //document.getElementById('oi').innerText = "Comprimento"
+
+    var ana = window.document.getElementsByName('oi')[0].innerText = 'esse e o meu primeiro nome'
+    </script> -->
+
+    <h3>Vou refazer os passos de ontem com DOM</h3>
+    <p>As mudanças vão aparecer aqui</p>
+    <p>BGDTCT</p>
+    <div id="aum">Fiz uma div porque o prof fez</div>
+
+    <script>
+        //document.write("quinta-feira")
+        //window.document.write("quinta-feira")
+        //window.document.write(window.document.charset) O window.document pode amostrar informações sobre o endereço, navegador e outras coisas do elemento que está abaixo do document
+         //var teste = window.document.getElementsByTagName('p')[1]
+         //window.document.write( teste.innerText )
+         //teste.style.background = "yellow"
+
+         //var seletor = window.document.getElementById("aum")
+         //seletor.style.background = "purple"
+         //seletor.innerText = "funcionou?"
+         var seletor = window.document.querySelector("#aum")
+         seletor.innerText = "funcionou?"
+
+         //innerText puxa o elemento sem as hereditariedades e innerHtml já puxa com as hereditariedades
+    </script>
+</body>
+</html>

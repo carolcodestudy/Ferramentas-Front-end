@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*Esse css é para mostrar como a página se adequa para imprimir*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+ul > li{
+    display: none;
+}
+
+menu{
+    height: 1px;
+}
+
+header{
+    height: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+article::after{
+    content: "Exercício do Curso vídeo impresso www.cursoemvideo.com";
+}
+
+article{
+    width: 100%;
+}

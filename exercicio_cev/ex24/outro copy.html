@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Fazer mais formulário com outras tags. Formulário com e-mail e o telefone personalizados-->
+<fieldset>
+        <legend>Campos do formulário</legend>
+        <form action="armazenamento.php" method="get">
+    
+        <p> <label for="carta">E-mail</label> <input type="email" name="virtual" id="carta" maxlength="20" size="34" autocomplete="email" required pattern="[]"> </p>
+    
+        <p> <label for="celular">Número de celular</label> <input type="tel" name="contato" id="celular" autocomplete="tel-national" minlength="11" size="13" pattern="^[0-9]{4}-[0-9]{4}$" required> </p>
+    
+            <button type="submit">Enviar</button>
+    
+            <button type="reset">Apagar</button>
+        </form>
+    
+</fieldset>
+</body>
+</html>

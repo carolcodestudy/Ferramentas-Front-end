@@ -1,0 +1,38 @@
+23/05/23
+
+MÓDULO D
+
+Aula 11 
+
+Condicional
+
+A primeira condição vai ser verdade. E a segunda vai ser falsa (else)
+
+Condição simples só tem um if.
+
+Os exemplos estão no cod 8,9 e 10.
+
+Fazer uma página com os codes 8 e 9.
+
+27/05/23
+
+Aula 12 
+
+Condicional
+
+No JS não funciona o operador "or" e nem "and" tem que usar || para ou e && para e.
+
+Ninho da condição -> Uma condição que vai levar para outra condição que está dentro do bloco dela.
+
+Nessa aula o prof só está usando o console.log para imprimir os resultados.
+
+Para pegar a hora do sistema tem que criar uma variável e por new Date(), depois cria outra variável que recebe essa variável igualando a variável.getHours(). Mas o horário vai depener onde o código está sendo executado pode ser no lado cliente ou no servidor.
+
+Valores que não mudam -> Usa condições múltiplas, uma condição executa vários blocos para entrar em um único ponto.
+
+Switch vai ter uma expressão e abrir as chaves para executar os valores que são chamados de case e o default.
+A cada valor e default tem que ter o break no final.
+
+A mesma coisa de conseguir a hora atual serve para minutos, dias, meses e anos. O JS enumera os dias de 0 á 6 o que começa no domingo até sábado o mesmo vai valer para mês mas o ano não precisa pois já vem ajeitado.
+
+O switch vai executar o comando que estiver o resultado da variável específica e vai quebrar, ele só vai parar quando encontrar um break.

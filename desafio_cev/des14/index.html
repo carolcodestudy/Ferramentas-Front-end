@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de escola</title>
+    <link rel="stylesheet" href="visual.css">
+</head>
+<body>
+    <!--Criar uma tabela de boletim escolar. Queria basear as notas nas minhas notas mas não consegui :(-->
+    <table>
+        <thead>
+            <!--Cabeça-->
+            <tr>
+                <th rowspan="2">área</th> <th rowspan="2">disciplina</th> <th colspan="2" scope="colgroup">notas</th> <th rowspan="2">média</th>
+            </tr>
+            <tr>
+                <th>nota 1</th> <th>nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Corpo-->
+            <tr>
+                <th rowspan="4" scope="rowgroup">exatas</th> <td>matemática</td> <td class="numeros">5.0</td> <td class="numeros">5.5</td> <td class="numeros">5.25</td>
+            </tr>
+            <tr>
+                <td>física</td> <td class="numeros">4.0</td> <td class="numeros">4.5</td> <td class="numeros">4.25</td>
+            </tr>
+            <tr>
+                <td>química</td> <td class="numeros">6.0</td> <td class="numeros">6.0</td> <td class="numeros">6.0</td>
+            </tr>
+            <tr>
+                <td>biologia</td> <td class="numeros">6.0</td> <td class="numeros">6.0</td> <td class="numeros">6.0</td>
+            </tr>
+            <tr class="mediaarea">
+                <th colspan="4"scope="row">média de exatas</th> <td class="numeros">5.37</td>
+            </tr>  
+
+            <!--PARTE DE HUMANAS-->
+
+            <tr>
+                <th rowspan="2" scope="rowgroup">humanas</th> <td>história</td> <td class="numeros">7.0</td> <td class="numeros">8.0</td> <td class="numeros">7.5</td>
+            </tr>
+            <tr>
+                <td>geografia</td> <td class="numeros">7.5</td> <td class="numeros">8.5</td> <td class="numeros">8.0</td>
+            </tr>
+            <tr class="mediaarea">
+                <th colspan="4" scope="row">média de humanas</th> <td class="numeros">8.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

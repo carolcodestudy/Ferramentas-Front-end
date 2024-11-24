@@ -1,0 +1,6 @@
+Curso em vídeo (Parceria do Google)- javascript(EcmaScript)
+Professor: Gustavo Guanabara. 
+
+Alguns exemplos são meus e outros do professor.
+
+Nos exercícios fui me baseando no código do professor.

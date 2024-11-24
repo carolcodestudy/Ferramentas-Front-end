@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu com responsividade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body onresize="tamanhodaTela()">
+    <!--Esse menu me lembrou a brincadeira de esconde-esconde que eu brincava na rua da minha avó-->
+    <header>
+        <h1>Menu da brincadeira Esconde-esconde</h1>
+        <span id="tres" class="material-symbols-outlined" onclick="Mudar()"> menu </span>
+        <menu>
+            <nav> 
+                    <li><a href="#" style="padding: 2px;">Personagens</a></li>
+                    <li><a href="#" style="padding-top: 2px; padding-right: 8px; padding-bottom: 1px; padding-left: 8px;">Desenhos </a></li>
+                    <li><a href="#" style="padding-top:
+                    2px; padding-right: 14px; padding-bottom:
+                        1px; padding-left: 14px;">Livros</a></li>
+                    <li><a href="#" style="padding-top:
+                        2px; padding-right: 10px; padding-bottom:
+                        1px; padding-left: 10px;">Hobbies</a></li>
+                    <li><a href="#" style="padding-top:
+                        2px; padding-right: 14px; padding-bottom:
+                        1px; padding-left: 14px;">Jogos</a></li>
+            </nav>
+        </menu>
+    </header>
+
+    <main>
+        <section>
+            <h2>" 1,2,3...LÁ VOU EU! "</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione soluta quod vero officia, consequuntur ad eligendi, expedita ab vel unde eos! Magni, reiciendis maxime ratione delectus veritatis temporibus labore aliquid.</p> 
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, magnam, dignissimos quibusdam illum doloribus quos inventore officiis rerum et magni cum amet accusamus corrupti! Quisquam harum porro ratione ducimus error.</p> 
+
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, vel. Dolores fugiat esse incidunt ab, explicabo nobis aut inventore sed asperiores sequi vitae fugit cum repudiandae in amet a corporis.</p> 
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At adipisci porro, aliquid nulla similique, eaque vel harum facilis hic rerum delectus necessitatibus aut impedit repellendus. Corrupti numquam totam ex saepe.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam ea molestiae beatae quod, neque architecto necessitatibus debitis doloremque impedit veritatis officiis quas repellat accusamus esse corrupti, repudiandae recusandae pariatur?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, sit. Eos ea illum at reprehenderit laborum facere veniam molestias impedit! Perspiciatis dolore molestias libero! Fugit quidem qui alias cum aut.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto iste quaerat earum rem ipsum, maiores numquam corporis maxime facilis similique in, laudantium nulla consectetur velit temporibus exercitationem laborum harum eveniet.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestias ut quia voluptatum magni beatae nesciunt quas dicta tempora consequuntur maxime, cum provident labore nulla tenetur at, aspernatur aliquid cupiditate.</p>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis vel dolores similique incidunt sequi quis tempore quasi officia eum, atque perferendis possimus distinctio quisquam quae voluptatem in voluptate expedita!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum placeat mollitia labore incidunt ad animi asperiores sunt nobis modi cupiditate dolores, facilis aut similique veritatis voluptate sed! Vero, labore consequatur.</p>
+        </section>
+    </main>
+    <script>
+        function Mudar(){
+            let lista = document.querySelector("menu")
+            if (lista.style.display == 'block'){
+                lista.style.display = 'none'
+            }
+            else{lista.style.display = 'block'
+            }
+            
+            
+        }
+
+        function tamanhodaTela(){
+            let lista = document.querySelector("menu")
+            if (window.innerWidth >= 768){
+                lista.style.display = 'block'
+            }
+            else{
+                lista.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>

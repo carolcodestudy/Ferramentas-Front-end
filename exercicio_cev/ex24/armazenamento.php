@@ -1,0 +1,1 @@
+O professor criou um arquivo php só para emitir algumas frases.

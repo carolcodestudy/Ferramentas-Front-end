@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt -Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas da tela</title>
+   <style>
+    /*Css para todas as posições da tela*/
+
+    *{
+    margin: 0%;
+    padding: 0px;
+    }
+
+    body{
+    cursor: context-menu;
+    background-color: pink;
+    color: rgb(243, 243, 75);
+    }
+
+    h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(243, 243, 75);
+    }
+
+    html , body{
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+/*Css para a posição não deitada*/
+
+    @media screen and (orientation: portrait){
+    body{
+        background-image: url(imagens/cev-portrait.jpg);
+        background-position: center bottom;
+        background-size: cover;
+    }
+    }
+
+/*Css para a posição deitada*/
+
+    @media screen  and (orientation: landscape) {
+    body{
+        background-image: url(imagens/cev-landscape.jpg);
+        background-position: left bottom;
+        background-size: cover;
+    }
+    }
+   </style>
+ 
+</head>
+<body>
+    <h1>Como a tela fica com o celular virado ou não</h1>
+</body>
+</html>

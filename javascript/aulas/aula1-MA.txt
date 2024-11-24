@@ -1,0 +1,11 @@
+04/05/23
+
+MÓDULO A
+
+aula 1
+
+Para poder verificar como sites funcionam sem js tem que procurar inspecionar por dev tools e clicar em configurações e desabilitar o js.
+Quando fiz isso no twitter, não pude acessar o site pela falta do js.
+
+E para modificar a imagem na tela é só procurar por console colocar os comandos document.queryselector(nome do elemento que quer alterar); e apertar enter.
+Descobrir o nome do elemento tem que clicar em uma seta com quadrado pontilhado na parte de cima da tela inspecionar e ir no elemento para saber o nome.

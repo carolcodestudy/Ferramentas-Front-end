@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar</title>
+    <style>
+
+    #container{
+        width: 530px;
+        height: 80vh;
+        padding: 10px;
+        background-color: springgreen;
+        position: relative;
+        /*A posição relative é para os elementos externos do body*/
+        background-image: url('imagens-cap19/target001.png');
+        background-size: 100% 100%;
+    }
+    #quadro{
+        width: 200px;
+        height: 180px;
+        background-color: pink;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background-image: url('imagens-cap19/target001.png');
+        background-size: 100% 100%;
+        /*A imagem cabeu toda nesse quadro*/
+        transform: translate( -50% , -50%);
+        /*Esse transform e o translate serve para escolher e colocar a posição do elemento, e nesse exemplo centralizou*/
+    }
+    </style>
+</head>
+<body>
+    <section id="container"> <article id="quadro"></article>
+    </section>
+</body>
+</html>

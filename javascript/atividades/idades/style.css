@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(57, 1, 8, 0.404);
+}
+
+h1{
+    text-align: center;
+    padding: 0px 0px 30px;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline 2px wavy rgba(50, 41, 41, 0.623);
+    color: rgb(255, 255, 255);
+}
+
+div > p{
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-style: normal;
+}
+#escolha{
+    text-align: left;
+    margin-bottom: 7%;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: medium;
+}
+#escolha > #femea {
+ margin-left: 2%;
+}
+
+button{
+    margin: 0%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color:  rgba(6, 247, 6, 0.604);
+    border-width: 0cm;
+    border-top-style: ridge;
+    border-right-style:groove;
+    border-bottom-style: solid;
+    border-left-style: ridge;
+    border-top-width: 0.2cm ;
+    border-right-width: 0.3cm;
+    border-bottom-width: 0.2cm;
+    border-left-width: 0.3cm;
+}
+/*
+:checked
+animation-name: cor;
+ animation-iteration-count: 1;
+:root{
+    --bolinha : pink;
+}
+@keyframes cor {
+    from{
+    transform: label color = none;
+    }
+    to{
+       transform: label color = pink;
+    }
+}
+Eu quero trocar a cor da bolinha quando clicar no Feminino aquela ideia de cor masculina e feminina*/
+
+#mostrar{
+    text-align: center;
+    padding: 60px 0px 1px 0px;
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    text-shadow: 6px 2px 2px rgba(165, 126, 42, 0.645);
+}
+/*Aqui só pegou com o id e não na própria tag*/
+
+#imagens{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    margin-top: 6%;
+    display: block;
+    padding-top: 2px;
+    box-shadow: 12px 2px 4px rgba(233, 194, 194, 0.578);
+    /*border-radius: 100% 4%; Deixou a imagem em formato de folha*/
+}
+section{
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 0%;
+    border-radius: 10%;
+    box-shadow: rgba(250, 204, 148, 0.382) 10px 3px 7px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 10%;
+}

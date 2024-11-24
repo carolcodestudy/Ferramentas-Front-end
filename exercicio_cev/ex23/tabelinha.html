@@ -1,0 +1,98 @@
+    <!--<p>olá</p>-->
+
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro em tabela</title>
+    <style>
+
+        th{
+            text-transform: capitalize;
+            font-family: 'Times New Roman', Times, serif;
+            border: 2px solid black;
+            padding: 4px;
+            
+        }
+
+        caption{
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        td{
+            text-transform: capitalize;
+            border: 2px solid black;
+            padding: 4px;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin:auto;
+            width: 330px;
+            height: 180px;
+        }
+
+        /*No dever o professor pintou as colunas. Só mudou a cor do fundo*/
+        .nomes{
+            background-color: rgb(42, 165, 106); 
+        }
+
+        .sexoidade{
+            background-image: linear-gradient(to bott
+            om,blue,purple,rgb(255, 255, 255));
+        }
+
+        .profissoes{
+            background-color: fuchsia;
+        }
+    </style>
+</head>
+<body>
+    <!--Fazer outro exercício de tabela baseada no vídeo-->
+    <!--Nesse dever vai usar colgroup e criar uma classe para fazer configurações. Vai ser por ordem da coluna.
+    Tem que colocar scope nos títulos que ficam na th-->
+
+    <table>
+        <caption>Cadastros</caption>
+        <thead>
+                <tr>
+                    <th scope="col">nome</th> <th scope="col">sexo</th> <th scope="col">idade</th> <th scope="col">profissão</th>
+                </tr>
+        </thead>
+
+        <colgroup>
+            <col class="nomes">
+            <!-- Juntas essas duas colunas
+                <col class="sexos">
+            <col class="idade">-->
+            <col class="profissoes">
+        </colgroup>
+
+        <tbody>
+            <tr>
+                <td>michele</td> <td>f</td> <td>25</td> <td>jornalista</td> 
+            </tr>
+            <tr>
+                <td>henrique</td> <td>m</td> <td>28</td> <td>programador</td>
+            </tr>
+            <tr>
+                <td>gustavo</td> <td>m</td> <td>42</td> <td>professor</td>
+            </tr>
+            <tr>
+                <td>julia</td> <td>f</td> <td>18</td> <td>jovem aprendiz</td>
+            </tr>
+            <tr>
+                <td>clara</td> <td>f</td> <td>35</td> <td>programadora</td>
+            </tr>
+            <tr>
+                <td>otávio</td> <td>m</td> <td>30</td> <td>nutricionista</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

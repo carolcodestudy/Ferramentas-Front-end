@@ -1,0 +1,28 @@
+@charset "UTF - 8";
+
+body{
+    color:rgb(251, 61, 162);
+    background-color: rgb(0, 0, 0);
+}
+
+h2{
+    width: 20cm;
+    height: 1cm;
+    /*border-radius: 10%;
+    border-color: deeppink;
+    border-style: groove;
+    text-align: center;
+    border-width: 6mm;
+    shorthand*/
+    border:  deeppink groove 6mm;
+    /*não funcionou com o border - radius*/
+}
+#a{
+    text-align: center;
+    width: 6mm;
+    height: 6mm;
+    border-radius: 70%;
+    border-color: deeppink;
+    border-style: groove;
+    border-width: 1mm;
+}

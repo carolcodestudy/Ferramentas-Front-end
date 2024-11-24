@@ -1,0 +1,9 @@
+adobe color - paleta de cores para site
+modo de cores para monitor - RGB
+
+criar uma pasta nova e abrir com vsc (ex 16)
+colocando as formas de como escolher as cores, por nome,por numero como o hexadecimal, e outra pelo RGB, hsl (matiz, saturação e luminosidade) dentro dos paragrafos
+
+Quantidade de cores:
+RGB(0, 171,169) Teal -> 0 de vermelho, 171 de verde e 169 de azul
+Hexadecimal -> 00 = vermehlo, AB = verrde, A9 = azul

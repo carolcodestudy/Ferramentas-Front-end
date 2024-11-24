@@ -1,0 +1,15 @@
+30/05/23
+
+MÓDULO D
+
+Exercícios js Curso em vídeo
+
+Fazer inputs do horário colocar manhã, tarde e noite por fotos.
+Fazer um contador de idade e por fotos conforme a idade.
+
+
+A estrutua que o professor deu foi body que vai emglobar o header, título, section dentro da section vai ter duas divs e em baixo vai ter o footer.
+
+foto da tarde dimitrisvetsikas1969 pixabay
+foto da noite Imagem de Imagem de <a href="https://pixabay.com/pt/users/12019-12019/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1758196">David Mark</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1758196">Pixabay</a>
+12019 pixabay

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cod3</title>
+</head>
+<style>
+    h3{
+        text-align: center;
+    }
+</style>
+<body>
+    <h3>Armazenar o resultado</h3>
+    <script>
+       /* var num1 = Number.parseInt( window.prompt("Primeiro número: "))
+        var num2 = Number.parseInt( window.prompt("Segundo número: "))
+        var resul = num1 + num2
+        
+        window.alert(num1  + num2 + "é igual a " + resul)
+        var num1 = Number(window.prompt("Primeiro numero: "))
+        var num2 =Number(window.prompt("Segundo numero: "))
+        var resul = num1 + num2
+        */
+
+        /*var resul = num1 + num2
+        window.alert(num1  + num2 + "é igual a " + String(resul))*/
+
+     /*var nume1 = 2
+     var nume2 = 4
+     var result = Number(nume1 + nume2)
+     alert(`O resultado do calculo ${nume1} mais ${nume2} foi ${result}`)*/
+
+    /*var name = window.prompt("Put your name, please ")
+    alert(`Your name is ${name} and it have ${name.length} letters`)
+    document.write(`Your name is ${name.toUpperCase()} `) 
+    document.write(`Your name is ${name.toLowerCase()} `)*/
+
+    //conversao de casas e moedas
+    var n1 = 1545.5
+    n1.toFixed(2) 
+    //1545.50
+    n1.toFixed(2).replace('.' , ',')
+    // 1545,50
+
+    // Vai colocar a variavel.o comando (a sigla do idioma e do país, {estilo 'atributo', o atributo está para silga da moeda})
+    //Vi esse tipo de exemplo na internet? Ainda pode ter mais
+    //Vai localizar a string de acordo com o país e idioma, o style é o atributo ou configuração, currency significa estilo monetário e por ultimo é a forma da moeda
+    n1.toLocaleString('pt-BR' , {style: 'currency' , currency: 'BLR'})
+    // R$ 1545.00
+    </script>
+</body>
+</html>

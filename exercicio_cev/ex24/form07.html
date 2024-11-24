@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt -Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="armazenamento.php" method="post">
+        <p>
+            <label for="brasileiros">Escolha um Estado</label>
+            <select name="estados" id="brasileiros">
+                <optgroup label="Sul">
+                    <option value="vago" selected>-Escolha-</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espírito Santo</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="escolha">Escolha uma profissão</label>
+            <input type="text" name="trabalho" id="escolha" list="profissional">
+                <datalist id="profissional">
+                    <option >Contador</option>
+                    <option >Técnico</option>
+                    <option >Auxiliar Geral</option>
+                </datalist>
+        
+        </p>
+        <p>
+            <label for="quadro">Colocar uma mensagem</label>
+            <textarea name="caixa" id="quadro" cols="30" rows="10"></textarea>
+        </p>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>

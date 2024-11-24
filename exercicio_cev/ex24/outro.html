@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Fazer mais formulário com outros parâmetros. Formulário do aluno com nota-->
+
+    <form action="armazenamento.php" method="post">
+
+        <p><label for="nome">Aluno(a)</label> <input type="text" name="estudo" id="nome" required min="1" max="12" placeholder="Nome"></p>
+
+        <p><label for="numeros">Nota</label> <input type="number" name="dever" id="numeros" size="1" step="0,5" placeholder="Nota geral"></p>
+
+        <p><label for="mes">Mes</label> <input type="month" value="2023-05" name="cinco" id="mes"></p>
+
+        <p><label for="tudo">Data completa</label> <input type="date" name="dia" id="tudo"  ></p>
+
+        <p><label for="horario">Horas</label> <input type="time" name="ponteiro" id="horario"></p>
+
+        <button type="submit">Enviar</button>
+
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>

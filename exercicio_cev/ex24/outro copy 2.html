@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Fazer mais formulário com outras tags. Formulário com e-mail e o telefone personalizados-->
+
+        <form action="armazenamento.php" method="get">
+            <fieldset>
+                <legend>Gênero</legend>
+
+                <label for="homem">Masculino</label>
+                <input type="radio" name="genero" id="homem" value="Homem"> <br>
+
+                <label for="mulher">Feminino</label>
+                <input type="radio" name="genero" id="mulher" value="Mulher">
+            </fieldset>
+
+            <fieldset>
+                <legend>Esportes</legend>
+
+                <label for="gol">Futebol</label>
+                <input type="checkbox" name="corre" id="gol" value="Futebol" checked>
+
+                <label for="nada">Natação</label>
+                <input type="checkbox" name="mergulho" id="nada" value="Natação">
+
+                <label for="set">Vôlei</label>
+                <input type="checkbox" name="salta" id="set" value="Vôlei">
+
+                <label for="luta">Box</label>
+                <input type="checkbox" name="bate" id="luta" value="Box">
+            </fieldset>
+    
+    
+            <button type="submit">Enviar</button>
+    
+            <button type="reset">Apagar</button>
+        </form>
+    
+
+</body>
+</html>

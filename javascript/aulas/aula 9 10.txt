@@ -1,0 +1,82 @@
+17/05/23
+
+MÓDULO C
+
+Aula 9 
+
+DOM -> Document Object Model
+
+Atalho para o live server ctrl + shift + p
+
+É uma conexão com os objetos do site, vai buscar as propriedades do elemento, faz a identificação para que ocorra o processo de ação. 
+
+Hereditariedade
+Árvore Dom: Ex.: window -> location, document, history...
+O html está dentro do document, se diz que é o filho de document e document é o pai.
+
+Seleção dos elementos: Nome, classe, ID, marca, seletor.
+
+Marca-> tagname()
+ID -> ByID
+Name: ByName
+Classe: elementsBy classes
+
+Quando é "elements" tem que usar [] para especificar a posição do elemento em números.
+
+queryselector -> Único elemento.
+queryselectorall -> Mais de um elemento.
+
+A mesma regra sobre a div e omid em css permanece em js.
+ex. da aula: 
+
+var d = window.document.querySelector(div#oi)
+d.style.color = "blue"
+
+Praticidade.
+
+cod5
+
+
+20/05/23 
+
+Aula 10
+
+Fazer eventos no DOM
+
+Pesquisar por Events reference na mozilla.
+
+No place holder tem que usar esse tipo de aspas entre a frase ``.
+Da para envelopar uma palavra ou uma variável.
+
+Eventos vão ser as ações dos comandos nos elementos.
+
+Eventos do mouse:
+mouseenter -> Quando o pointer passar pelo elemento vai fazer uma pequena ação. 
+mousemove -> O mouse está se mexendo dentro do elemento. 
+mousedown -> Clica e permanece com o botão no dedo.
+mouseup -> Desfaz o mousedown.
+click -> Ação do clique do mouse.
+mouseout -> Desfaz o mouseneter.
+
+
+Função vai ser o conjunto de comandos de um bloco para executar o evento quando esse evento acontecer, o bloco tem que ter a função, o nome da função, parâmetros dentro dos parenteses e abrir as chaves { } que vai ficar o codigo.
+
+Os exemplos da aula estão nos arquivos 6 e 7 da pasta start.
+
+Da para escrever a variável fora da função, e isso servirá para mais funções que estão atribuindo a variável nos outros blocos. Pode declarar as funções com o "add.adventListener" sem precisar colocar dentro de uma tag, dentro do script.coloca o evento e o nome da função dentro de parenteses ( ).
+
+O professor fez 3 inputs para captar o primeiro número e outro para o segundo número. O terceiro foi para fazer a soma.
+No resultado ele uso a variável já declarada, botou junto com o innetHTML e escreveu o resultado.
+
+
+
+
+
+
+
+
+
+
+
+
+

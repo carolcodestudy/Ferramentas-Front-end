@@ -1,0 +1,78 @@
+@charset "UTF8";
+
+/* Device Breakpoints: Impressora, televisão, tablet e computador. Usa media query e as features 
+
+Pegar as referências de tamanho no site w3school, como o professor fez. Fiz algumas mudançãs para adaptar na minha tela de notebook
+
+Essas configurações só foram exibidas direito no inspecionar e não deu certo criar tudo em um único arquivo CSS*/
+
+/*Vai configurar a tela do tamanho de um tablet*/
+@media screen and (min-width: 350px) and (max-width: 700px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);  
+    }
+
+    div{
+        width: 50%;
+        height: 30%;
+    }
+
+    #tv{display: none;}
+    #touch{display: block; width: 50%; display: block; margin: auto;}
+    #portatil{display: none;}
+    #imprime{display: none;}
+    }
+
+
+/*Tela do computador*/
+@media screen and (min-width: 701px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    div{
+        width: 50%;
+        height: 30%;
+    }
+
+    #tv{display: none;}
+    #multitarefa{display: block; width: 50%;margin: auto;}
+    #touch{display: none;}
+    #portatil{display: none;}
+    #imprime{display: none;}
+}
+
+/*Televisão*/
+@media screen and (min-width: 1201px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    div{
+        width: 50%;
+        height: 30%;
+    }
+
+    #tv{display: block; width: 50%; margin: auto;}
+    #multitarefa{display: none; width: 50%; margin: auto;}
+    #touch{display: none;}
+    #portatil{display: none;}
+    #imprime{display: none;}
+}
+
+@media print {
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    div{
+        width: 50%;
+        height: 30%;
+    }
+
+    #imprime{display: block;}
+    #tv{display: none; width: 50%; margin: auto;}
+    #multitarefa{display: none; width: 50%; margin: auto;}
+    #touch{display: none;}
+    #portatil{display: none;}
+}

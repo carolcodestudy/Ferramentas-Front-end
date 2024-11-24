@@ -1,0 +1,9 @@
+@charset  "UTF-8";
+
+/*Css para o celular não virado*/
+
+body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}

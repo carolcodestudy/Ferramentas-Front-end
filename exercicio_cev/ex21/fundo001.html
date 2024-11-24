@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens no fundo</title>
+    <style>
+
+        body{
+            background-image: url('imagens-cap19/pattern002.png');
+        }
+
+        .quadro{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: gray;
+            display: inline-block;
+        }
+
+        #qua1{
+            background-image: linear-gradient(90deg, black,rgb(21, 21, 84));
+        }
+        #qua2{
+            background-image: linear-gradient(to top, pink, rgb(250, 106, 199),rgb(249, 249, 78)75%);
+        }
+        #qua3 {
+            background-image: url('imagens-cap19/pattern001.png');
+        }
+    </style>
+</head>
+<body>
+    <div class="quadro" id="qua1" > </div>
+    <div class="quadro" id="qua2" > </div>
+    <div class="quadro" id="qua3" > </div>
+</body>
+</html>

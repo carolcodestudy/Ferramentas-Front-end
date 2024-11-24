@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos do DOM</title>
+    <!--Seguindo o que o prof esta fazendo-->
+</head>
+<body>
+    <h1>Calculando os números</h1>
+
+    <input type="number" name="txtn1" id="txtn1"> + <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="resul">Resultado: </div>
+
+    <script>
+        function somar(){
+            var tx1 =  window.document.getElementById("txtn1")
+            var tx2 = window.document.getElementById("txtn1")
+            var result = window.document.querySelector('#resul')
+
+            var n1 = Number(tx1.value)
+            var n2 =Number(tx2.value)
+            var s = n1 + n2
+            result.innerHTML = `A soma vai ser ${n1} mais ${n2} igual ${s}`
+        }
+
+        //Base no exemplo da aula 
+    </script>
+</body>
+</html>

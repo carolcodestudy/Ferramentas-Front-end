@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="idade.js"></script>
+    <title>Idades</title>
+</head>
+<body>
+    <header>
+        <!--Exercício do curso em vídeo do js. Fui me baseando no código do professor-->
+        <h1>Verificar idades</h1>
+    </header>
+    <section> 
+        <div>
+            <p>Ano de nascimento <input type="number" name="nascimento" id="ano" min="0" max="4"> </p>
+            <p id="escolha">Sexo: <input type="radio" name="sexo" id="macho" checked>
+                <label for="macho">Masculino</label>
+                <input type="radio" name="sexo" id="femea">
+                <label for="feminino">Feminino</label>
+            </p> 
+            <!--<input type="button" value="calcular" onclick="idade()">-->
+            <button type="button" onclick="idade()" id="calcul">Calcular</button>
+           </div>
+
+            <div id="mostrar">
+                <h2>Preencha os campos para ver</h2>
+            </div>
+
+    </section>
+
+    <footer>
+        <h3> &copy; Curso em Vídeo JS</h3>
+    </footer>
+</body>
+</html>

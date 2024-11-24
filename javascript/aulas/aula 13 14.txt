@@ -1,0 +1,58 @@
+10/06/23
+
+MÓDULO E
+
+Aula 13 
+
+Vai passar sobre as estruturas de repetições
+
+É que nem uma condição normal, só que sem parada durante as condições que forem verdadeiras, caso for falsa vai quebrar o loop.
+
+Usar o while ( ) {
+
+}
+Usar o function também.
+
+O function vai abrigar o while e no bloco dentro do while vai ter os comandos que irão participar do loop.
+Primeiro vai ter a função e o nome da função vai abrir ( ) e vai abrir { } para abrir um bloco e dentro vai tar o while a condição dentro dos parenteses e vai abrir as chaves para colocar os comandos do loop.
+
+console.log("Hoje é sábado")
+
+var dia = domingo
+ //sabado
+
+function final(){
+while (dia=sabado){
+ jogar()
+}
+}
+Se for domingo vai quebrar, mas se for sábado o loop continua.
+
+As repetições podem ser feitas sem function também, pode colocar a incrementação variável++, que nem no PHP.
+Me lembrou muito o do e while do PHP.
+
+Também existe a execução de uma tarefa ou bloco primeiro e no final passar por um teste de condição.
+
+Vai por o do, abrir as chaves escrever o código dentro desse bloco e de fora vai colocar o while e a condição.
+O loop vai valer do while enquanto for verdadeiro até o do.
+
+OS exemplos vão estar na pasta codesemjs no cod14.
+
+
+Aula 14
+
+Repetição variável de controle
+
+Inicialização, teste lógico e incrementação.
+Vai usar o for para abrigar essas três etapas que ficam dentro de parenteses separadas por ; e depois abre as chaves para escrever os blocos.
+
+Inicialização -> Quanto a variável recebe incialmente.
+Teste lógico -> Vai ser a condição.
+Incrementação -> Vai fazer as repetições acontecerem variável++.
+
+Fazer depuração do código, vai acompanhar como ele roda paaso por passo.
+Tem que clicar no inseto com o play do lado, depois, vai clicar em um espaço lá vai abrir uma página nova e aí vai aparecer as partezinhas pra fazer analise.
+
+cod15
+
+

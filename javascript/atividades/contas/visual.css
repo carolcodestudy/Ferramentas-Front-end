@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0, 60, 255, 0.771);
+}
+
+section{
+    height: 280px;
+    width: 40%;
+    background-color: white;
+    margin:auto;
+    margin-top: 6%;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    border-radius: 2%;
+    box-shadow: 2px 2px 4px ;
+}
+
+/*#receptor{
+    
+}
+
+/*#emissor{
+    
+}*/
+
+h1{
+    text-align: center;
+    margin-top: 4%;
+}
+
+h2{
+    padding-top: 1%;
+    font-size: 14px;
+}
+
+h4{
+    text-align: left;
+    /*padding-right: 10px;
+    display: flex;*/
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 6%;
+}

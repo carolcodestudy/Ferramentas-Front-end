@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="armazenamento.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="ano">Ano de nascimento</label>
+            <input type="number" name="nascimento" id="anos" min="1900" max="2023" oninput="idade()">
+        </p>
+
+        <p>
+            <label for="calculo">Idade</label>
+            <output id="calculo">0</output>
+        </p>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+
+    <script>
+        function idade(){
+           var ano = new Date().getFullYear()
+            calculo.innerHTML = Number(ano) - Number(anos.value)
+        }
+    </script>
+</body>
+</html>

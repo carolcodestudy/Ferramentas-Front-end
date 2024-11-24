@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocupação de célula</title>
+    <style>
+
+        th, td{
+            border: 2px solid black;
+            padding: 6px;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin: 2%;
+        }
+
+        caption{
+            text-align: center;
+            width: 220px;
+            margin: 1%;
+        }
+
+        body{
+            display: inline;
+           
+        }
+    </style>
+</head>
+<body>
+    <!--Baeado no exemplo da aula-->
+    <table>
+        <caption>A célula vai ocupar outras células</caption>
+
+        <thead> <tr><th colspan="4">Letras</th></tr> </thead>
+
+        <tbody>
+        <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td rowspan="2">d</td>
+    </tr>
+    <tr>
+        <td>e</td>
+        <td>f</td>
+        <td>g</td>
+    </tr>
+    <tr>
+     <td>h</td>
+     <td>i</td>
+     <td>j</td>
+     <td>k</td>
+    </tr>
+</tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#fundo > .sistema {
+    z-index: 1;
+    position: relative;
+    transform: translate(45%, 360%);
+}
+
+span > p{
+    position: relative;
+    transform: translate(2px, 430px);
+    text-wrap: pretty;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    transform: translate(120px, 420px);
+}

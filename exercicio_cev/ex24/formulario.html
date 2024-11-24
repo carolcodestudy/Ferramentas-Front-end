@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        cursor: context-menu;
+    }
+</style>
+<body>
+    <!--Inputs com senha e limpar a caixa-->
+    <form action="armazenamento.php" method="get" autocomplete="on">
+       
+        <p> <label for="letras">Apelido:</label> <input type="text" name="nome" id="letras" required autocomplete="current-password" minlength="4" maxlength="10" size="10"></p>
+
+        <p><label for="senha"> Senha:</label> <input type="password" name="protegido" id="senha" required autocomplete="current-password" minlength="6" maxlength="12" size="10"></p>
+
+        <!--Fazer um botão para enviar e um outro botão para apagar. O professor usou o input mas eu quis colocar o button-->
+
+        <button type="submit">Enviar</button>
+
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,51 @@
+19/06/23
+
+MÓDULO F
+
+Aula 15
+
+Variável que recebe mais de um valor. Array.
+Variável que é vetor.
+Vai ter variável e depois tem que abrir os colchetes para referenciar os índices dos elementos.
+
+let variável = [elemento, elemento, elemento]
+Para adicionar a variável t=pode usar a variável[índice novo] = valor do elemento ou usar variável.push(valor do elemento).
+
+O length é um parâmetro para contar ou medir as casinhas do vetor 
+variável.length.
+
+O sort também vai ser usado no js para ordenar os elementos dentro da array que nem no PHP.
+variável.sort()
+
+A ordem da declaração de parâmetros com variáveis importa.
+
+variável.indexOf(valor do elemento) -> serve para pegar e mostrar o índice.
+Quando o js não reconhece nenhum valor do elemento pesquisado ele coloca -1.
+
+Os exemplos da aula estão no cod 17 e 18
+
+22/06/23
+
+Aula 16
+
+Funções
+
+As funções tem uma chamada, parâmetro, ação e retorno.
+
+Dessa vez vai usar o parâmentro entre parenteses.
+
+Um exemplo da aula:
+
+function parimp(n) {
+if (n%2 == 0){
+return 'par'
+}
+ else{
+return 'ímpar'
+}
+}
+let res = parimp(11) Esse aqui vai ser a chamada da função.
+
+Cod19
+
+

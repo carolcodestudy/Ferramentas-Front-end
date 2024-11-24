@@ -1,0 +1,21 @@
+06/05/23
+
+Aula 2
+
+Cliente -> Vai pedir o arquivo pelo navegador.
+Servidor -> É onde está armazenado os arquivos da internet, é o servidor que envia uma cópia para o cliente passando pelo navegador.
+Html -> Conteúdo. 
+Css -> Design.
+
+Javascript foi lançada em 1995 pela Netscape.
+
+ecmascript é a padronização da linguagem.
+jquery -> Biblioteca.
+
+Aula 3
+
+Instalação do node.js.
+mozilla -> referencias. 
+ecma.org -> referencias(ecma262).
+
+Aula 4 está dentro da pasta start, acho que é referente ao arquivo cod01.

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*Css para todas as posições da tela*/
+
+*{
+    margin: 0%;
+    padding: 0px;
+}
+
+body{
+    cursor: context-menu;
+    background-color: pink;
+    color: rgb(243, 243, 75);
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(243, 243, 75);
+}
+
+html , body{
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

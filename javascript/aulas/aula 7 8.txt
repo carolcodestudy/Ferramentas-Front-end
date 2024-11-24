@@ -1,0 +1,78 @@
+13/05/23
+
+Aula 7
+
+Operadores em js
+
+Aritméticos, atribuição, relacionais, lógicos e ternário.
+
+Na porcentagem o resultado que fica é o resto da divisão número % número.
+** -> potência, número ** número da potência(número elevado ao numero da potencia).
+
+Ordem de precedencia: parenteses, potências, multipli., divisão e o resto da divisao
+
+No Js colocar a expressão em parenteses vai fazer o cálculo de forma ordenada. No exemplo da aula 5+3 /2 o resultado vai ser 6.5 e quando eu botei (5 + 3) /2 deu 4 no resultado.
+
+No terminal do Node
+var a = 5
+var b = 3
+
+var result = Number(a + b)/2
+result
+4
+
+Fazer atribuição vai armazenar os valores nas variáveis e faz os cálculos.
+Auto atribuição cria uma variável, coloca o valor, depois digita essa variável recebendo ela mesma e calculando outra variavel ou número, e passa a receber o resultado calculado.
+
+variável sinal do calculo = número que vai calcular com a variável
+end
+
+Operador de incremento -> variavel++, variavel-- ou ++variavel, --variavel.
+
+Aula 8
+
+Relacionais: sinal de maior, menor, maior ou igual, menor ou igual, igual e igual(==) e diferente (!=).
+O resultado vai ser verdadeiro ou falso, valor booleano.
+
+
+Primeiro o aritmetico depois os relacionais, lógicos em uma expressão.
+
+O js pode reconhcer tipos diferentes porém de mesmo valor como no exemplo da aula 5 =='5' que resultou no true e o operador de identidade restrita é ===. Nesse o Js vai fazer a diferença dos types e vai dar o resultado de false se for número === 'string'.
+!== -> diferente restrito.
+
+Lógico: ! negação, && conjunção e || disjunção.
+
+Negação é negar um valor que seja booleano na entrada, entra um false sai true.
+Conjunção é caso se um é falso vai ser falso, for 2 falsos, também.
+Disjunção é o contrário da conjunção. É tipo se for verda. ou falso vai ser verdadeiro.
+
+Em uma expressão priemrio && e depois vem o ||.
+
+var age = 19
+> var age1 = 18
+> age >= 18
+true
+
+age>= 18 && age1 >= 19
+false
+
+Ternário: ? (pode ser) e :(pode não ser).
+Começa com o requisito aí vai aparecer dois resultados se pode ser ou não pode ser.
+Requisito ? opção1 : opção2
+Resultado qual opção atribuiu ao requisito.
+
+No exemplo do curso o pro fez: 
+
+var media = 5.5
+media <7 ? "APROVADO" : "REPROVADO"
+REPROVADO  
+
+A primeira opção sempre vai ser verdadeira.
+
+var age = 19
+> var age1 = 18
+age == age1 ? "É igual" : "Não é igual"
+'Não é igual'
+
+
+

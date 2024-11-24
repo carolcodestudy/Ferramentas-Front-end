@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+th{
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 3px solid rgb(42, 46, 42);
+    text-transform: capitalize;
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+td{
+    border: 2px solid black;
+    padding-left: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.mediaarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    text-align: left;
+}
+
+.mediaarea:nth-child(1n){
+    background-color: gray;
+    color: white;
+}
+
+thead:nth-child(1n){
+    background-color: grey;
+    color: white;
+} 
+
+.numeros{
+    text-align: center;
+}
+/*:root{
+    --letra : (uppercase);
+}*/

@@ -1,0 +1,17 @@
+27/06/23
+
+Aula 17
+
+Estudar mais: functions, objetos, modularização, RegEx, JSON, AJAX e NodeJS.
+
+Ver os vídeos de exercícios de novo e pesquisar por expressões que eu ainda não tinha visto para saber como usar.
+
+Declaração de objetos em js usa chaves.
+
+ex.: let amigo = {  ,   ,   ,  }
+
+Serve para usar para códigos mais complexos, e pode colocar nome da variável para identificar o índice. Também pode colocar função.
+
+ex.: let amigo = {variavel:  ,variavel:   ,nome da função(){}}
+
+cod20

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela do Wikipedia</title>
+    <style>
+
+        body{
+            /*background-image: linear-gradient(to left, rgba(63, 147, 231, 0.855), rgba(248, 121, 214, 0.921));*/
+            display: inline;
+        }
+
+    caption{
+        margin: 3% 10% 3% 10%;
+        text-align: center;
+        cursor: context-menu;
+        font-style: italic;
+    }
+
+    th{
+        border: 2px solid black;
+        /*background-color: rgba(255, 255, 255, 0.855);*/
+        padding: 6px;
+        text-align: left;
+    }
+
+    tbody > tr:nth-child(2n-1){
+       background-color: rgba(252, 142, 59, 0.942);
+    }
+    tbody > tr:nth-child(2n){
+        background-color: rgba(162, 73, 245, 0.816)
+    }
+
+    td{
+        border: 2px solid black;
+        padding: 4px;
+    }
+
+    table{
+        border-collapse: collapse;
+        /*Só se usa no table!*/
+        text-align: center;
+        position: relative;
+        left: 30%;
+        /*Também funcionou!*/
+        /*margin-right: auto;
+        margin-left: auto;*/
+        /*Funcionou, vi na w3.org*/
+        cursor: context-menu;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 2% 0 1% 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .porcentos {
+        text-align: right;
+        /*O professor deu exemplo da Wkipedia e do Excel no alinhamento de números*/
+        /*background-color: rgba(233, 250, 109, 0.967);
+        color: rgba(0, 80, 156, 0.995);*/
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: white;
+    }
+
+        div{
+            /*Deixou o texto fixo e a tabela com uma barra*/
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <!--Recriar a tabela dos estados brasileiros com referência da tabela da Wikipedia e se baseando na tabela que o professor criou-->
+    <!--Vou usar essa tabela pra fazer o último dever do módulo 3. Deixar a tabela responsiva-->
+    <h1>Responsividade da tabela</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quisquam tempora earum explicabo quasi dicta adipisci placeat natus aut quibusdam officiis, odio quos quaerat perferendis libero beatae ipsa accusamus obcaecati.</p>
+
+    <div>
+        <table>
+            <caption>Tabela do Brasil</caption>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total</th>
+                    <td>27</td>
+                    <td>27</td>
+                </tr>
+            </tfoot>
+            <thead>
+                <!--Começa com a cabeça. Serve para colocar os títulos de cada coluna-->
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Abreviação</th>
+                    <th scope="col">Capital</th>
+                    <th scope="col">População</th>
+                    <th scope="col">Alfabetização</th>
+                </tr>
+            </thead>
+               <tbody>
+                <!--Os dados principais vão ficar aqui no corpo-->
+                <tr>
+                    <td>Acre</td>
+                    <td>AC</td>
+                    <td>Rio Branco</td>
+                    <td>795.145</td>
+                    <td class="porcentos">86,9%</td>
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td>AL</td>
+                    <td>Maceió</td>
+                    <td>3.327.551</td>
+                    <td class="porcentos">80,6%</td>
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td>AP</td>
+                    <td>Macapá</td>
+                    <td>756.500</td>
+                    <td class="porcentos">95%</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td>AM</td>
+                    <td>Manaus</td>
+                    <td>3.893.763</td>
+                    <td class="porcentos">93,1%</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td>BA</td>
+                    <td>Salvador</td>
+                    <td>15.150.143</td>
+                    <td class="porcentos">87%</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td>CE</td>
+                    <td>Fortaleza</td>
+                    <td>8.867.448</td>
+                    <td class="porcentos">84,8%</td>
+                </tr>
+                <tr>
+                    <td>Distrito Federal</td>
+                    <td>DF</td>
+                    <td>Brasília</td>
+                    <td>2.867.869</td>
+                    <td class="porcentos">97,4%</td>
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td>ES</td>
+                    <td>Vitória</td>
+                    <td>3.894.899</td>
+                    <td class="porcentos">93%,8</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td>GO</td>
+                    <td>Goiânia</td>
+                    <td>6.551.322</td>
+                    <td class="porcentos">93,5%</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>MA</td>
+                    <td>São Luís</td>
+                    <td>6.861.924</td>
+                    <td class="porcentos">83,3%</td>
+                </tr>
+                <tr>
+                    <td>Mata Grosso</td>
+                    <td>MT</td>
+                    <td>Cuiabá</td>
+                    <td>3.236.578</td>
+                    <td class="porcentos">93,5%</td>
+                </tr>
+                <tr>
+                    <td>Mata Grosso dp Sul</td>
+                    <td>MS</td>
+                    <td>Campo Grande</td>
+                    <td>2.630.098</td>
+                    <td class="porcentos">93,7%</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>MG</td>
+                    <td>Belo Horizonte</td>
+                    <td>20.777.672</td>
+                    <td class="porcentos">93,8%</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>PA</td>
+                    <td>Belém</td>
+                    <td>8.101.180</td>
+                    <td class="porcentos">90,7%</td>
+                </tr>
+                <tr>
+                    <td>Paraíba</td>
+                    <td>PB</td>
+                    <td>João Pessoa</td>
+                    <td>3.950.359</td>
+                    <td class="porcentos">83,7%</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td>PR</td>
+                    <td>Curitiba</td>
+                    <td>11.112.062</td>
+                    <td class="porcentos">95,5%</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td>PE</td>
+                    <td>Recife</td>
+                    <td>9.297.861</td>
+                    <td class="porcentos">87,2%</td>
+                </tr>
+                <tr>
+                    <td>Piauí</td>
+                    <td>PI</td>
+                    <td>Teresina</td>
+                    <td>3.198.185</td>
+                    <td class="porcentos">82,8%</td>
+                </tr>
+                <tr>
+                    <!--MEU ESTADO QUE SAUDADE-->
+                    <td>Rio de Janeiro</td>
+                    <td>RJ</td>
+                    <td>Rio de Janeiro</td>
+                    <td>16.497.395</td>
+                    <td class="porcentos">97,3%</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Norte</td>
+                    <td>RN</td>
+                    <td>Natal</td>
+                    <td>3.419.550</td>
+                    <td class="porcentos">85,3%</td>
+                    </tr>
+                    <tr>
+                        <td>Rio Grande do Sul</td>
+                        <td>RS</td>
+                        <td>Porto Alegre</td>
+                        <td>11.228.091</td>
+                        <td class="porcentos">96,8%</td>
+                    </tr>
+                    <tr>
+                        <td>Rondônia</td>
+                        <td>RO</td>
+                        <td>Porto Velho</td>
+                        <td>1.755.015</td>
+                        <td class="porcentos">93,3%</td>
+                    </tr>
+                      <tr>
+                        <td>Roraima</td>
+                        <td>RR</td>
+                        <td>Boa Vista</td>
+                        <td>500.826</td>
+                        <td class="porcentos">93,4%</td>
+                      </tr>
+                      <tr>
+                        <td>Roraima</td>
+                        <td>RR</td>
+                        <td>Boa Vista</td>
+                        <td>500.826</td>
+                        <td class="porcentos">93,4%</td>
+                      </tr>
+                      <tr>
+                        <td>Santa Catarina</td>
+                        <td>SC</td>
+                        <td>Florianópolis</td>
+                        <td>6.734.568</td>
+                        <td class="porcentos">97,2%</td>
+                      </tr>
+                      <tr>
+                        <td>São Paulo</td>
+                        <td>SP</td>
+                        <td>São Paulo</td>
+                        <td>44.169.350</td>
+                        <td class="porcentos">97,2%</td>
+                      </tr>
+                      <tr>
+                        <td>Sergipe</td>
+                        <td>SE</td>
+                        <td>Aracaju</td>
+                        <td>2.227.294</td>
+                        <td class="porcentos">85,3%</td>
+                      </tr>
+                      <tr>
+                        <td>Tocantis</td>
+                        <td>TO</td>
+                        <td>Palmas</td>
+                        <td>1.502.759</td>
+                        <td class="porcentos">89,6%</td>
+                      </tr>
+               </tbody>
+        </table>
+    </div>
+    <a href="https://pt.wikipedia.org/wiki/Unidades_federativas_do_Brasil" target="_blank">Wikipedia</a>
+</body>
+</html>

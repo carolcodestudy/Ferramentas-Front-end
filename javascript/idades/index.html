@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt -Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Dryicons-Valentine-Heart.ico" type="image/x-icon">
+</head>
+<body>
+    <!--Vou refazer os exerccícios  do curso de Javascript e Ecmascript do Curso em Vídeo. Esse exercíico é para verificar os dados e gerar uma imagem de acordo com os dados inputados.
+    Vou me basear nos outros exercíicos que o professor passou no curso Html e Css. Pesquisei para saber como pegar só o mês no site horadecodar-->
+
+    <header>
+        <h1>Aparência das idades</h1>
+    </header>
+
+    <div id="dados">
+
+        <label for="dia" id="margem1" class="anos" >Dia:</label>
+        <input type="number" name="data1" id="dia" >
+
+        <br>
+
+        <label for="mês" id="margem2" class="anos" >Mês:</label>
+        <input type="number" name="data2" id="mês" >
+
+        <br>
+
+        <label for="ano" id="margem3" class="anos">Ano:</label>
+        <input type="number" name="data3" id="ano" >
+
+        <br>
+
+        <!--O name dos inputs tem que ser o mesmo para homem e mulher se não, vai marcar as duas bolinhas-->
+        <p id="sexo">Sexo:
+
+            <label for="feminino" class="generos">Feminino</label>
+            <input type="radio" name="sexo" id="feminino" checked>
+            
+            <label for="masculino" class="generos">Masculino</label>
+            <input type="radio" name="sexo" id="masculino">
+            
+        </p> 
+        
+        <div id="foto">
+            <h2>Preencha tudo para ver a foto!</h2>
+            
+            <button type="submit" onclick="Exibir()">Ver</button>
+            
+            
+            <button type="reset" style="display: none;" onclick="Usar()">De novo</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <h3>&copy; Curso em Vídeo JS</h3>
+        <p style="font-size: 1.1em; margin-top: 1px; position: relative; transform: translateY(120%);">Esse é um exercício do Curso em Vídeo que eu decedi fazer sozinha, me baseando no que o professor passou e adicionei outras coisas. <br> Eu me inspirei em outras aplicações e na ideia de cor azul para masculino e cor rosa para feminino.</p>
+    </footer>
+
+    <script src="idade.js"></script>
+    <script src="novo.js"></script>
+    
+    <!--O script calculo.js não funcionou com o <script src="idade.js"></script> usando a mesma função -->
+    
+</body>
+</html>

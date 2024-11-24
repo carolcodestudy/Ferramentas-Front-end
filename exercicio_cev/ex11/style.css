@@ -1,0 +1,13 @@
+@charset "UTF-8" ;
+body {
+    background-color:rgb(255, 250, 185);
+    font-size: 14pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+}
+h1 {
+    color: darkblue;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}

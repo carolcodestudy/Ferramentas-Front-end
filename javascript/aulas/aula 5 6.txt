@@ -1,0 +1,41 @@
+09/05/23
+
+MODULO B 
+
+Aula 5
+
+Dados e variáveis -> armazenamento.
+Comentário em js -> /* */ ou //
+
+Atribuição:
+var nome da variavel = (recebe) valor.
+Com palavra tem que por entre "" '' ou `${variavel}` crase, cada um desses símbolos tem uma função específica.
+
+Variável: Pode começar com $ e _ também, pode por acento e símbolo.
+String pode ser com números também quando eles tem pontos ou outros símbolos.
+
+Valor boleano -> true ou false.
+
+Data types:
+number = infnity e NaN, string, boolean, null, undefined, object = array e function. 
+NaN -> Significa Not a Number.
+
+Tipos primitivos
+Comando typeof = coloca o tipo do valor.
+
+O js entende o valor null como  um objeto.
+
+Aula 6
+
+Manipulação dos dados em js
+Concatenação é com +
+
+Number:
+Conversão
+Entre parenteses é para se referir ao número que será convertido.
+Number.parseInt(comandos("")) converte o valor para inteiro.
+Number.parseFloat(comandos("")) converte o valor para número quebrado e real(inteiro tá encluso).
+Number(comandos("")) faz direto, o próprio js vai identificar o float e int.
+
+String (comandos(""))
+valorparaconverter.toString(" ")

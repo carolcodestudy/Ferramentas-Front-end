@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt -BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelinha</title>
+    <style>
+
+        body{
+            margin: 1%;
+        }
+
+        table{
+            border: 3px double gray;
+            width: 350px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 2%;
+            /*Posições dos dados da tabela*/
+            text-align: center;
+            vertical-align: middle;
+            /*Tem que trabalhar com essas duas propriedades o text-align para posicionar o testo na horizontal e o vertical-align na posição vertical*/
+        }
+
+    </style>
+</head>
+<body>
+    <!--Baeado no exemplo da aula-->
+   <h1>Tabela colorida</h1> 
+   <p>O professor ensinou a criar uma tabela como a do Execel. <br> Eu vou criar uma tabela que nem aquelas de paletas de cor</p>
+
+   <table>
+    <tr>
+        <td style="background-color: yellow;">Amarelo</td>
+        <td style="background-color: rgb(0, 145, 255);">Azul</td>
+        <td style="background-color: rgb(20, 175, 12);">Verde</td>
+        <td style="background-color: gray;">Cinza</td>
+        <tr>
+            <td style="background-color: orange;">Laranja</td>
+            <td style="background-color: rgb(147, 3, 147);">Roxo</td>
+            <td style="background-color: aqua;">Aqua</td>
+            <td style="background-color: black; color: white;">Preto</td>
+        </tr>
+        <tr>
+            <td style="background-color: red;">Vermelho</td>
+            <td style="background-color: pink;">Rosa</td>
+            <td>Branco</td>
+            <td style="background-color: brown;">Marrom</td>
+        </tr>
+    </tr>
+   </table>
+</body>
+</html>
