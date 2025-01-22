@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            background-color: yellow;
+            display: flex;
+            flex-direction: row-reverse;
+            /*row -> main start
+            row-reverse -> main end
+            collumn -> cross start
+            collumn-reverse -> cross end*/
+        }
+
+        .container > .item{
+            background-color: blue;
+            border: 1px solid white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Nesse módulo 5 o prof vai trazer informações sobre o uso de flexbox que envolve elemento pai e elemento filho, adaptação dos elementos. E também vai trazer conhecimento de grids layout.
+    Vai ter também um projeto final.-->
+
+    <div class="container">
+    <div class="item">1#</div>
+    <div class="item">2#</div>
+    <div class="item">3#</div>
+    <div class="item">4#</div>
+    </div>
+</body>
+</html>
