@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            background-color: yellow;
+            display: flex;
+            flex-flow: row nowrap;
+
+        }
+
+        .container > .item{
+            background-color: blue;
+            border: 1px solid white;
+            text-align: center;
+            flex-basis: 250px; /*Base flexível para todos itens, as mudanção só aparecem quando ficarem menor do que esse valor(250px)*/
+        }
+
+        .container > #item1{
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        .container > #item2{
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        .container > #item3{
+            flex-shrink: 2;
+            flex-grow: 0;
+        }
+    </style>
+</head>
+<body>
+    <!--Align-content-->
+
+    <div class="container">
+    <div class="item" id="item1">1#</div>
+    <div class="item" id="item2">2#</div>
+    <div class="item" id="item3">3#</div>
+    </div>
+</body>
+</html>

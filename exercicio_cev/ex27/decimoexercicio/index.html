@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            background-color: yellow;
+            display: flex;
+            flex-flow: row nowrap;
+
+        }
+
+        .container > .item{
+            background-color: blue;
+            border: 1px solid white;
+            text-align: center;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <!--Align-content-->
+
+    <div class="container">
+    <div class="item">1#</div>
+    <div class="item">2jdjdjdj#</div>
+    <div class="item">3#</div>
+    <div class="item">4#</div>
+    </div>
+</body>
+</html>
