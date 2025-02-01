@@ -1,0 +1,67 @@
+@charset "UTF-08";
+
+* { margin:0%; padding: 0px; box-sizing: border-box; }
+
+html{
+    width: 100vw; height: 100vh;
+}
+
+body{
+   cursor: context-menu
+}
+
+header{
+    display: flex; justify-content: space-between; align-items: center; flex-flow: row wrap; 
+}
+
+header > h1{
+    padding: 10px 0px 10px 5px; flex: 0 0 100px;
+}
+
+header > nav{
+    padding: 20px 50px 10px 5px; display: flex;
+}
+
+header > nav > a{
+text-decoration: none; color: black; padding: 0px 4px;
+}
+
+header > nav > #kitten{
+    flex: 0 0 100px;
+}
+
+header > nav > #bigcat{
+    flex: 0 0 110px;
+}
+
+header > nav > #mylove{
+    flex: 0 0 120px;
+}
+
+header > nav > #princess{
+    flex: 0 0 110px;
+}
+
+header > nav > #badguy{
+    flex: 0 0 100px;
+}
+
+header > nav > #goodguy{
+    flex: 0 0 110px;
+}
+
+main{
+    margin: 5% 2%;
+}
+
+main > div{
+    display: flex; justify-content: flex-start; align-items: flex-start; flex-flow: column;
+}
+
+main > div >h2{
+    padding: 10px 0px 15px 5px;
+}
+
+main > div > p{
+    text-indent: 20px; letter-spacing: 2px; flex-shrink: 2; flex-grow: 0; flex-basis: 50%; border: 1px solid red; 
+}
