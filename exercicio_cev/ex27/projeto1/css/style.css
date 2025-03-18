@@ -7,7 +7,7 @@ html{
 }
 
 body{
-   cursor: context-menu
+   cursor: context-menu;
 }
 
 header{
@@ -72,10 +72,6 @@ main > div > p{
 }
 
 @media (max-width:600px) and (orientation:portrait){
-
-body{
-    background-color: green;
-}
 
 header > h1{
     flex-basis: 50px; text-align: center; padding-right: 20px; padding-left: 0px;
